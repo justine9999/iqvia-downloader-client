@@ -24,11 +24,6 @@ public class IqviaDownloaderClientApplication implements CommandLineRunner {
 	@Override
     public void run(String... args) {
 
-        if(args.length < 2) {
-        	System.out.println("argument number should be at least 2.");
-        	return;
-        }
-        
         String id_str = null;
         File targetFolder = null;
         
